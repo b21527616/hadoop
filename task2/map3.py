@@ -8,6 +8,6 @@ arg = sys.argv[0]
 # input comes from STDIN (standard input)
 for line in sys.stdin:
     line = line.strip()
-    count = line.count()
+    count = line.count(arg)
     for i in range(count):
         print "%s\t%s" % (file_name, 1)
