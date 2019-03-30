@@ -4,7 +4,7 @@ import os
 file_name = os.getenv('map_input_file')
 file_name = file_name.split("/")[-1]
 
-arg = sys.argv[0]
+arg = sys.argv[1]
 # input comes from STDIN (standard input)
 for line in sys.stdin:
     line = line.strip()
